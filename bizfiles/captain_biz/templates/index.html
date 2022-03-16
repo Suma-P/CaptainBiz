@@ -1,0 +1,449 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caption Biz</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel = "icon" href ="{% static 'img/icon.png' %}" type = "image/png">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+                            <!--       Navbar    -->
+
+    <nav class="navbar fixed-top navbar-light">
+      <a class="navbar-brand" href="https://captainbiz.com/">
+      <img src="{% static 'img\CAP_LOGO_60x200-01-campaign.png' %}" alt="logoimage" width="200px" height="30px"></a>
+    </nav>
+
+                     <!--        Captain Biz Introduction            -->
+
+    <div class="row">
+      <div class="column">
+        <section class="features_section">
+          <div class="features_top">
+            <h1>CaptainBiz Helps You Manage Business Tension-Free</h1>
+          </div>
+
+          <div class="features_container">
+              <div class="feature_items">
+                  <i><img src="{% static 'img\Bills.svg' %}" width="30px" height="30px"></i>
+                  <div class="content-in">Invoicing at your fingertips</div>
+              </div>
+
+              <div class="feature_items">
+                  <i><img src="{% static 'img\mark.svg' %}" width="30px" height="30px"></i>
+                  <div class="content-in">Instantly check inventory on PC or mobile</div>
+              </div>
+
+              <div class="feature_items">
+                  <i><img src="{% static 'img\cooperate.svg' %}" width="30px" height="30px"></i>
+                  <div class="content-in">Easy download of GST Reports, ready for filing</div>
+              </div>
+
+              <div class="feature_items">
+                  <i><img src="{% static 'img\payment.svg' %}" width="30px" height="30px"></i>
+                  <div class="content-in">Cloud-based software to manage daily business operations</div>
+              </div>
+
+              <div class="feature_items2">
+                  <i><img src="{% static 'img\testimonial.svg' %}" width="30px" height="30px"></i>
+                  <div class="content-in">Recommended by GSTN (Goods and Services Tax Network) as an easy-to-use business management solution for all MSMEs</div>
+              </div>
+          </div>
+        </section>
+      </div>
+
+                            <!-- Registration Form-->
+
+      <div class="column">
+          <div class="form1">
+              <form action=" " class="form">
+                  <div class="maintitle"><h3>Try Now, It's Free!</h3></div>
+                  <div class="subtitle">Enter the details of the account you want to create</div><br>
+                  <input type="radio" id="rd_1" name="rd" value="Yes">
+                  <label for="registeredunderGSTN">Registered under GSTN</label>
+                  <input type="radio" id="rd_2" name="rd" value="CSS">
+                  <label for="noGSTregistration">No GST Registration</label><br><br>
+                  <hr class="campaign-form-seperator"><br>
+
+                  <div class="form__div">
+                      <input type="text" class="form__input" placeholder="" required>
+                      <label for="" class="gstin_number">GSTIN Number</label>
+                  </div><br>
+                  <div class="col" id="gstinshow">
+                      <div class="form__div">
+                          <select class="floating-select minimal" onclick="this.setAttribute('value', this.value);" value="" id="stateDD">
+                              <option value=""></option>
+                              <option id="pofoption0" value="4023">Andaman and Nicobar Islands</option>
+                              <option id="pofoption1" value="4017">Andhra Pradesh</option>
+                              <option id="pofoption2" value="4024">Arunachal Pradesh</option>
+                              <option id="pofoption3" value="4027">Assam</option>
+                              <option id="pofoption4" value="4037">Bihar</option>
+                              <option id="pofoption5" value="4031">Chandigarh</option>
+                              <option id="pofoption6" value="4040">Chhattisgarh</option>
+                              <option id="pofoption7" value="4032">Dadra and Nagar Haveli</option>
+                              <option id="pofoption8" value="4033">Daman and Diu</option>
+                              <option id="pofoption9" value="4021">Delhi</option>
+                              <option id="pofoption10" value="4009">Goa</option>
+                              <option id="pofoption11" value="4030">Gujarat</option>
+                              <option id="pofoption12" value="4007">Haryana</option>
+                              <option id="pofoption13" value="4020">Himachal Pradesh</option>
+                              <option id="pofoption14" value="4029">Jammu and Kashmir</option>
+                              <option id="pofoption15" value="4025">Jharkhand</option>
+                              <option id="pofoption16" value="4026">Karnataka</option>
+                              <option id="pofoption17" value="4028">Kerala</option>
+                              <option id="pofoption18" value="4852">Ladakh</option>
+                              <option id="pofoption19" value="4019">Lakshadweep</option>
+                              <option id="pofoption20" value="4039">Madhya Pradesh</option>
+                              <option id="pofoption21" value="4008">Maharashtra</option>
+                              <option id="pofoption22" value="4010">Manipur</option>
+                              <option id="pofoption23" value="4006">Meghalaya</option>
+                              <option id="pofoption24" value="4036">Mizoram</option>
+                              <option id="pofoption25" value="4018">Nagaland</option>
+                              <option id="pofoption26" value="4013">Odisha</option>
+                              <option id="pofoption27" value="4011">Puducherry</option>
+                              <option id="pofoption28" value="4015">Punjab</option>
+                              <option id="pofoption29" value="4014">Rajasthan</option>
+                              <option id="pofoption30" value="4034">Sikkim</option>
+                              <option id="pofoption31" value="4035">Tamil Nadu</option>
+                              <option id="pofoption32" value="4012">Telangana</option>
+                              <option id="pofoption33" value="4038">Tripura</option>
+                              <option id="pofoption34" value="4022">Uttar Pradesh</option>
+                              <option id="pofoption35" value="4016">Uttarakhand</option>
+                              <option id="pofoption36" value="4853">West Bengal</option>
+                          </select>
+                          <span class="highlight"></span>
+                          <label for="" class="satate">State</label>
+                      </div>
+
+                      <div class="form__div">
+                          <select class="floating-select minimal" id="typeDropdown" onclick="this.setAttribute('value', this.value);" value="">
+                              <option value=""></option>
+                              <option value="1">Regular</option>
+                              <option value="2">Composition Dealer</option>
+                          </select>
+                          <span class="highlight"></span>
+                          <label for="" class="gst_registration_type">GST Registration Type</label>
+                      </div><br>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="company_name">Company Name</label>
+                      </div><br>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="first_name">First Name</label>
+                      </div>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="last_name">Last Name</label>
+                      </div><br>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="email">Email</label>
+                      </div>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="mobile_no">Mobile No</label>
+                      </div><br>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="" required>
+                          <label for="" class="password">Password</label>
+                      </div>
+
+                      <div class="form__div">
+                          <input type="text" class="form__input" placeholder="Confirm Password" required>
+                          <label for="" class="confirm_password">Confirm Password</label>
+                      </div><br>
+                  </div>
+
+                  <input type="checkbox"  id="customCheckAgree" name="terms">
+                  <label for="customCheckAgree">I agree to the <a href="#" >terms and conditions</a></label><br>
+                  <button onclick="my_function()" style="background-color:green; color:white;">create my account</button>
+              </form>
+          </div>
+      </div>
+    </div>
+
+                                        <!--Features-->
+
+    
+    <section class="features_digit">
+        <div class="features_top">
+            <h2>Digitize Your Business - Simplify Daily Operations</h2><br>
+            <h6>These power-packed features will help you with:</h6>
+        </div>
+
+        <div class="card_container">
+
+            <!--        Single-Container   -->
+
+            <div class="card-slider">
+                <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\8130975_invoice_bill_billing_payment_validating_icon.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Quick Billing & Custom Invoices</h5><br>
+                            <p>Share custom sales or purchase invoices with customers (or suppliers) via WhatsApp or Email.</p>
+                        </div>
+                    </div>
+                </figure>
+
+                    <!--        Single-Container    -->
+
+                <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\mark.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Real-time Inventory Check</h5><br>
+                            <p>Auto updation of inventory after every sale or purchase. Easy access over PC or mobile to track.</p>
+                        </div>
+                    </div>
+                </figure>
+
+                    <!--        Single-Container    -->
+
+                <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\mark.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Purchase Management</h5><br>
+                            <p>Effectively manage your procurement requirements per the cash cycle of your business.</p>
+                        </div>
+                    </div>
+                </figure>
+
+                    <!--        Single-Container    -->
+
+                 <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\custom-suppy-validity.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Customer & Supplier Visibility In One Place</h5><br>
+                            <p>Quick overview of all customer and supplier transactions and outstanding payments.</p>
+                        </div>
+                    </div>
+                </figure>
+
+        <!--        Single-Container    -->
+
+                <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\8130975_invoice_bill_billing_payment_validating_icon.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Quick Billing & Custom Invoices</h5><br>
+                            <p>Share custom sales or purchase invoices with customers (or suppliers) via WhatsApp or Email.</p>
+                        </div>
+                    </div>
+                </figure>
+  
+        <!--        Single-Container    -->
+
+                <figure>
+                    <div class="card_item">
+                        <img src="{% static 'img\mark.svg' %}" width="50px" height="50px"><br>
+                        <div class="card_info">
+                            <h5>Real-time Inventory Check</h5><br>
+                            <p>Auto updation of inventory after every sale or purchase. Easy access over PC or mobile to track.</p>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+            <!--          Testimonial       -->
+
+    <section class="testionial-slider">
+        <div class="section-title">
+            <h1>Testimonials</h1>
+        </div>
+        <div class="slider">
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"I was facing many problems before CaptainBiz, like manual entry for bills, tracking collections, filing of bills, etc. Luckily, I discovered CaptainBiz, called their Helpline and their friendly Customer Service team solved all my problems. l use CaptainBiz software solution regularly. I would rate CaptainBiz a solid 5 out of 5."</p>
+                </div>
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="{% static 'img\Switi Badole_2.webp' %}" alt="Switi Badole - Pic1" >
+                    <div class="testcontent">
+                        <h5 class="name">Switi Badole</h5>
+                        <p class="title">Sunshine Enterprises</p>
+                        <p class="title">Nagpur, Maharashtra</p>
+                    </div>
+                </div>
+            </figure>
+
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"I run an IT accessories service and sales business. I am happy I found CaptainBiz – a billing and GST software solution that made my life much simpler! Another feature that I love of CaptainBiz is inventory management. I can do a stock check on-the-go on my computer or the CaptainBiz mobile app."</p>
+                </div>
+                <br>
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="{% static 'img\no-image.webp' %}" alt="Hari Om Sahu - Pic1">
+                </div>
+                
+                <div class="testcontent">
+                    <h5 class="name">Hari Om Sahu</h5>
+                    <p class="title">Kanchan IT Solutions</p>
+                    <p class="title">Kota, Rajasthan</p>
+                </div>
+            </figure>
+
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"I am a big fan of CaptainBiz. It is a billing & GST solution that’s perfect for my hardware and sanitary business. CaptainBiz has helped me take my business online with its many features. My GST reports are updated with every transaction. All I simply have to do is extract in Excel table format and file. I can also monitor receivables and payables, do cash & bank reconciliation, on my PC and the CaptainBiz mobile app. I give CaptainBiz software solution a full 5 out of 5 rating!"</p>
+                </div>
+                <br>
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="C:\Users\User\Downloads\captain_biz\captain_biz\static\img\Rajesh-Jindal_2.webp" alt="rajesh-jindal">
+                </div>
+                
+                <div class="testcontent">
+                    <h5 class="name">Rajesh Jindal</h5>
+                    <p class="title">Jindal Sanitary Store</p>
+                    <p class="title">Jhajjar, Haryana</p>
+                </div>
+            </figure>
+
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"We are an Event Management company; our main struggle was to generate manual invoice in excel for clients which led to error in typing GST number, contact details, calculation mistakes and apart from this there was no proper historical data maintained, but after switching our manual way of handling business to digital way with Captain Biz all of our above problems were catered, as in this system we can save client’s details which can be re-used while generating invoice and also as Captain Biz is in cloud all historical data are intact and no need of back up.The best part of this is we can access it anytime and from anywhere. Overall, experience with Logo Captain Biz is great!"</p>
+                </div>
+                <br>
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="{% static 'img\Ventak-ramani.webp' %}" alt="Ventak Ramani - Pic1">
+                </div>
+               
+                <div class="testcontent">
+                    <h5 class="name">Venkat Ramani</h5>
+                    <p class="title">Red Planet</p>
+                    <p class="title">Chennai, Tamil Nadu</p>
+                </div>
+            </figure>
+
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"It is simply amazing that I'm able to do essential business functions such as invoicing, collections, and most importantly GST filing right on my mobile devices while I am on the move or sitting in a cafe enjoying my cup of tea. Captain Biz Mobile App apart from being very rich in functionality is also self-learning in nature and I did not find any difficulty in navigating through its screens even when I used it for the first time. I am more than happy to recommend Captain Biz to my business colleagues. Digital is not only for big corporates!"</p>
+                </div>
+                <br>
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="{% static 'img\no-image.webp' %}" alt="Mohammed Sarfaraz - Pic1">
+                </div>
+
+                <div class="testcontent">
+                    <h5 class="name">Mohammed Sarfaraz</h5>
+                    <p class="title">Rana Electricals & Rana Engineers</p>
+                    <p class="title">Muzaffarnagar, UP</p>
+                </div>
+            </figure>
+
+            <figure>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="description">"My CA suggested me Logo Captain Biz for my business and I started exploring it on my own. We are manufacturing and trading company who deals in industrial parts. Getting customised invoice template was my biggest concern so after switching my business operation on Captain Biz I can customised various templates, track inventory, payments and collections. The best feature is I can share directly invoices with my customer via whatsapp and it is completely online so syncing of data is not required.And when I am stuck or need any support I can always rely on their excellent customer support executives who are just a call away."</p>
+                </div>
+                <br>
+
+                <div class="text-image">
+                    <img class="rounded-circle img-fluid" src="{% static 'img\no-image.webp' %}" alt="Vikas Chavda">
+                </div>
+                
+                <div class="testcontent">
+                    <h5 class="name">Vikas Chavda</h5>
+                    <p class="title">Shyama Enterprises</p>
+                    <p class="title">Mumbai, Maharashtra</p>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+            <!--              Why Captain Biz      -->
+
+    <section id="features">
+        <div class="feature_top">
+            <h2>Why CaptainBiz?</h2>
+        </div>
+        <div class="features_container">
+            <div class="feature_items3">
+                <i><img src="{% static 'img\Easysetup.svg' %}" class="img-fluid" width="50px" height="50px"></i>
+                <div class="featureItem_info1">
+                    <h4>Easy Setup</h4><br>
+                    <p>No IT knowledge required! Our friendly, dedicated Customer Support team will assist with account setup to help you get started. Manage daily business with ease.</p>
+                </div>
+            </div>
+
+            <div class="feature_items3">
+                <img src="{% static 'img\Accessible.svg' %}" class="img-fluid" width="50px" height="50px">
+                <div class="featureItem_info1">
+                    <h4>Accessible Anytime,Anywhere</h4><br>
+                    <p>A Cloud-hosted software, you can access and operate your account over PC or mobile to generate and send invoices, track inventory, monitor payables & receivables, manage customers & suppliers and more.</p>
+                </div>
+            </div>
+
+            <div class="feature_items3">
+                <img src="{% static 'img\secure-camp.svg' %}" class="img-fluid" width="50px" height="50px">
+                <div class="featureItem_info1">
+                    <h4>Secure & Reliable</h4><br>
+                    <p>A highly secure software solution endorsed by GST Government of India as an affordable and easy-to-use solution for both GST and non-GST companies.</p>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+                            <!--    Contacts   -->
+
+    <section id="features1">
+        <div class="feature_items4">
+            <img src="{% static 'img\location.svg' %}" class="img-fluid" width="30px" height="30px">
+            <div class="featureItem_info">
+                <h4>Address</h4>
+                <p>7th Floor, B Wing, BSEL Tech Park, Sector 30A, Navi Mumbai, 400705</p>
+            </div>
+        </div>
+
+        <div class="feature_items4">
+            <img src="{% static 'img\email.svg' %}" class="img-fluid" width="40px" height="40px">
+            <div class="featureItem_info">
+                <h4>Email</h4>
+                <p>support@captainbiz.com</p>
+            </div>
+        </div>
+
+        <div class="feature_items4">
+            <img src="{% static 'img\phone-call.svg' %}" class="img-fluid" width="30px" height="30px">
+            <div class="featureItem_info">
+                <h4>Phone</h4>
+                <p>022 - 61054690</p>
+            </div>
+        </div>
+    </section>
+<!--                            Java Script                          -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">$('.slider').slick({infinite: false});</script>
+    <script type="text/javascript">$('.card-slider').slick({infinite: false,slidesToShow: 4,slidesToScroll: 1});</script>
+
+                      <!--        Footer          -->
+
+    <footer class="sticky-footer">
+        <div class="foot my_footer">
+            <p class="text-center">© Copyright Logo Infosoft. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

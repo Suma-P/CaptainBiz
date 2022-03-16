@@ -1,0 +1,388 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    font-family: sans-serif;
+    
+    justify-content: center;
+    background-color: rgba(245, 234, 234, 0.356);
+}
+
+/*** Navbar ***/
+
+.navbar{
+    background-color:#f4f4ff;
+    }
+ .navbar-brand{
+    margin-left:10%;
+    width:100%;
+    top:0;
+ }
+/***      Captain Biz Introduction            ***/
+.row
+{
+    display: flex;
+    background-color: rgba(164, 206, 240, 0.171);
+}
+.column
+{
+    flex: 50%;
+    float: left;
+    width: 50%;
+}
+
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.features_digit
+{
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.features_section
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+    float: left;
+    
+}
+
+.features_top
+{
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 0rem;
+    
+}
+
+.features_top h1
+{
+    margin-bottom: 1rem;
+    color: rgba(3, 3, 143, 0.993);
+    letter-spacing: 0.01rem;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.feature_items
+{
+    display: flex;
+    background-color: white;
+    padding-top: 0.6rem;
+    
+    padding-left: 0.6rem;
+    padding-right: 0rem;
+    border-radius: 0.3rem;
+    width: 45%;
+    margin-top: 1rem;
+}
+
+.features_container
+{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-family: 'poppins',sans-serif;
+    padding-left: 10rem;
+}
+
+
+.feature_items2
+{
+    display: flex;
+    background-color: #e1f4e7;
+
+    padding-bottom: 00.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0rem;
+    border-radius: 0.3rem;
+    width: 93%;
+    margin-top: 1rem;
+}
+
+
+ i
+{
+  
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.5rem;
+}
+
+.content-in
+{
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/*** Registration ***/
+
+.form1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    width: 70%;
+    padding-left: 2rem;
+
+}
+ 
+.form
+{
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba(112, 105, 105, 0.658);
+    background-color: white;
+}
+
+.form button{
+    display: block;
+    margin: auto;
+    padding: .75rem 5rem;
+    outline: none;
+    border: none;
+    background-color: rgb(8, 57, 8);
+    color: #fff;
+    font-size: var(1rem);
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .3s;
+    }
+
+.maintitle h3
+{
+    
+    font-size: larger;
+    padding-bottom: 0.5rem;
+}
+
+.radio
+{
+    padding-bottom: 1rem;
+}
+
+/*** Features ***/
+
+.features_digit .features_top h2
+{
+    font-size: 210%;
+    text-align: center;
+    padding-top: 3rem;
+    color: rgba(3, 3, 143, 0.993);
+}
+
+.features_digit .features_top h6
+{
+    font-size: 100%;
+    text-align: center;
+    color: #5a5959;
+}
+
+.card-slider
+{
+    align-items: center;
+    justify-content: center;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+.card_item
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(234, 246, 248, 0.555);
+    padding-top: 1.5rem;
+    padding-bottom: 00.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.card_item  .card_info  h5
+{
+    
+    font-size: 130%;
+}
+
+/*** Testimonial ***/
+
+.testionial-slider{
+     background-color:#fef1f1;
+}
+
+
+.testionial-slider  .section-title h1
+{
+    font-size: 210%;
+    text-align: center;
+    padding-top: 3rem;
+    color: rgba(3, 3, 143, 0.993);
+
+}
+
+.slide-container
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 2rem;
+
+}
+
+.slider
+{
+    align-items: center;
+    justify-content: center;
+    padding-left: 23rem;
+    padding-right: 23rem;
+}
+
+.swiper-slide
+{
+    position: relative;
+    width: 700px;
+    height: auto;
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+
+}
+
+.rounded-circle 
+{
+    width: 90px;
+    clip-path: circle();
+}
+
+.testcontent .title
+{
+    color: #5a5959;
+}
+
+.testcontent h4
+{
+     align-items:center;
+
+}
+
+.testcontent p{
+      line-height:1.5rem;
+      margin-bottom:1rem;
+}
+
+/*** Why Captain Biz ***/
+
+.featureItem_info1:hover{
+
+         transform:scale(1.3);
+
+}
+.features_container{
+ transition: .1s;
+}
+
+.features_digit .features_top h1
+{
+    font-size: 210%;
+    text-align: center;
+    padding-top: 3rem;
+    color: rgba(3, 3, 143, 0.993);
+}
+
+.feature_top h2{
+     margin-bottom:1rem;
+     color: #302A7E;
+     letter-spacing:0.01rem;
+     text-align:center;
+     }
+
+.feature_items3
+{
+    display: inline-flex;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 2rem;
+}
+
+.feature_items3
+{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f1;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+}
+
+/*** Contact ***/
+
+#features1{
+       background-color:#FBFBFB;
+       display:grid;
+       grid-template-columns:1fr 1fr 1fr;
+       }
+
+.feature_items4{
+     padding:1rem;
+     margin-top:2rem;
+     text-align:center;
+     transition: .1s;
+     }
+
+.featureItem_info:hover{
+
+         transform:scale(1.3);
+     }
+
+.feature_item4 img{
+     font-size:3.5rem;
+     margin-bottom:0.5rem;
+     }
+.featureItem_info h4{
+     font-size:1.3rem;
+     color:#071e55;
+     margin-bottom:0.5rem;
+     }
+.featureItem_info p{
+     font-size:1rem;
+     line-height:2rem;
+     font-weight:300;
+     }

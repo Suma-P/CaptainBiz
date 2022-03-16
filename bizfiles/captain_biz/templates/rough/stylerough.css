@@ -1,0 +1,272 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    font-family: sans-serif;
+    
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbar{
+    background-color:#f4f4ff;
+    }
+ .navbar-brand{
+    margin-left:10%;
+    width:100%;
+    top:0;
+ }
+
+.row
+{
+    display: flex;
+    background-color: aquamarine;
+}
+.column
+{
+    flex: 50%;
+    float: left;
+    width: 50%;
+}
+
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.features_section
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+    float: left;
+    
+}
+
+.features_top
+{
+    text-align: left;
+    padding-left: 7rem;
+    padding-right: 0rem;
+    
+}
+
+.features_top h1
+{
+    margin-bottom: 1rem;
+    color: rgba(3, 3, 143, 0.993);
+    letter-spacing: 0.01rem;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.feature_items
+{
+    display: flex;
+    background-color: white;
+    padding-top: 0.6rem;
+    padding-bottom: 00.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0rem;
+    border-radius: 0.3rem;
+    width: 30%;
+    margin-top: 1rem;
+}
+
+
+.feature_items4
+{
+    display: flex;
+    background-color: rgb(155, 199, 240);
+    padding-top: 0.6rem;
+    padding-bottom: 00.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0rem;
+    border-radius: 0.3rem;
+    width: 93%;
+    margin-top: 1rem;
+}
+
+.features_container
+{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-family: 'poppins',sans-serif;
+    padding-left: 5rem;
+}
+
+.i
+{
+    font-size: 3re;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+
+
+
+}
+
+.content-in
+{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.registerform{
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0, 6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.form1
+{
+    background-color: rgb(0, 0, 0, 0, 5);
+    width: 800px;
+    margin: auto;
+    background-color: #a6c1e9;
+}
+
+
+
+.features_digit .features_top h1
+{
+    font-size: 200%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+.features_digit .features_top h6
+{
+    font-size: 100%;
+    color: #5a5959;
+}
+
+
+.form1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    width: 50%;
+    float: right;
+    
+}
+ 
+.form
+{
+    width: auto;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba(112, 105, 105, 0.658);
+    background-color: white;
+}
+
+.maintitle h3
+{
+    
+    font-size: larger;
+    padding-bottom: 0.5rem;
+}
+
+.radio
+{
+    padding-bottom: 1rem;
+}
+
+
+
+.card_container
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 2rem;
+    
+}
+
+.card_item
+{
+    position: relative;
+    width: 250px;
+    height: 220px;
+    background-color: rgb(220, 241, 245);
+    padding-top: 0.6rem;
+    padding-bottom: 00.6rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+    
+}
+
+.card_item  .card_info  h5
+{
+    font-size: 130%;
+}
+
+.feature_items2
+{
+    display: inline-flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 2rem;
+}
+
+.feature_items2 
+{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(220, 241, 245);
+    padding-top: 0.6rem;
+    padding-bottom: 00.6rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+}
+
+
+.feature_items3
+{
+    display: inline-flex;
+    align-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 2rem;
+    position: relative;
+    width: 350px;
+    height: 300px;
+    padding-top: 0.6rem;
+    padding-bottom: 00.6rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+    text-align: left;
+} 
